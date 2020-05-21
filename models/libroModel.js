@@ -11,4 +11,4 @@ const libroModel = new Schema(
   }
 );
 
-module.exports = mongoose.model('Libro',libroModel)
+module.exports = mongoose.model('Libro',libroModel) //exporta el modelo
